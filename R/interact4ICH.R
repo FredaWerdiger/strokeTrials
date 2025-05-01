@@ -43,7 +43,8 @@ getInteractConfidenceCurves = function(directory='.'){
                                   sample.size = odds.ratio$sample.size,
                                   directory=directory,
                                   show='BENEFIT', pval='TWO-SIDED', min.effect = 0,dir.benefit = 0,
-                                  plot=TRUE,
+                                  return.plot=TRUE,
+                                  save.plot = FALSE,
                                   tag="interact4_ICH")
 }
 
